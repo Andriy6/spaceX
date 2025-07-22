@@ -150,3 +150,269 @@ img {
     color: #808080;
     list-style: none;
 }
+
+
+@media screen and (max-width: 900px) {
+    .container {
+    width: 768px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1230px;
+    height: 17px;
+}
+
+.logo {}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.main {}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-text {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.falcon-owerview {
+    height: 360px;
+    width: 603px;
+}
+
+.section-title {
+    list-style: none;
+    height: 68px;
+    width: 177px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+
+}
+
+.overview-text {
+    display: flex;
+    width: 603px;
+}
+
+.falcon-parameters {
+    list-style: none;
+    width: 50%;
+}
+
+.falcon-parameters-item {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+
+}
+
+
+.main {
+    height: 1250px;
+}
+
+.section-article {
+    width: 490px;
+    height: 145px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+
+}
+.footer{
+    width: 488px;
+    height: 200px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.contact-links{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+}
+.gray-contact{
+    color: #808080;
+    list-style: none;
+}
+}
+@media screen and (max-width: 767px) {
+    .container {
+    width: 360px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1230px;
+    height: 17px;
+}
+
+.logo {}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.main {}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-text {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.falcon-owerview {
+    height: 360px;
+    width: 603px;
+}
+
+.section-title {
+    list-style: none;
+    height: 68px;
+    width: 177px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+
+}
+
+.overview-text {
+    display: flex;
+    width: 603px;
+}
+
+.falcon-parameters {
+    list-style: none;
+    width: 50%;
+}
+
+.falcon-parameters-item {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+
+}
+
+
+.main {
+    height: 1250px;
+}
+
+.section-article {
+    width: 490px;
+    height: 145px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+
+}
+.footer{
+    width: 488px;
+    height: 200px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.contact-links{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+}
+.gray-contact{
+    color: #808080;
+    list-style: none;
+}
+}
